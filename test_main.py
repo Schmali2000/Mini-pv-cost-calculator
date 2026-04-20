@@ -6,7 +6,7 @@ def test_annuity_factor():
 
 
 def test_annualized_cost():
-    assert round(annualized_cost(10000, 0.05, 20, 200), 2) == 1001.86
+    assert round(annualized_cost(10000, 0.05, 20, 200), 2) == 1002.43
 
 
 def test_levelized_cost():
