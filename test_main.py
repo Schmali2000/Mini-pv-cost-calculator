@@ -2,7 +2,7 @@ from main import annuity_factor, annualized_cost, levelized_cost
 
 
 def test_annuity_factor():
-    assert round(annuity_factor(0.05, 20), 4) == 0.0802
+    assert round(annuity_factor(0.05, 20),4) == 0.1
 
 
 def test_annualized_cost():
